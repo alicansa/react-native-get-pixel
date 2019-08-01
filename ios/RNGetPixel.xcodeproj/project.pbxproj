@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79E0CD47201B644B006C6708 /* RNGetPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0CD44201B644B006C6708 /* RNGetPixel.m */; };
-		79E0CD48201B644B006C6708 /* UIImage+RGBAAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E0CD46201B644B006C6708 /* UIImage+RGBAAtPixel.m */; };
+		2867507C22F339AC00D5B059 /* UIImage+RGBAAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2867507922F339AC00D5B059 /* UIImage+RGBAAtPixel.m */; };
+		2867507D22F339AC00D5B059 /* RNGetPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2867507A22F339AC00D5B059 /* RNGetPixel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2867507822F339AC00D5B059 /* RNGetPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNGetPixel.h; path = RNGetPixel/RNGetPixel.h; sourceTree = "<group>"; };
+		2867507922F339AC00D5B059 /* UIImage+RGBAAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGBAAtPixel.m"; path = "RNGetPixel/UIImage+RGBAAtPixel.m"; sourceTree = "<group>"; };
+		2867507A22F339AC00D5B059 /* RNGetPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGetPixel.m; path = RNGetPixel/RNGetPixel.m; sourceTree = "<group>"; };
+		2867507B22F339AC00D5B059 /* UIImage+RGBAAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGBAAtPixel.h"; path = "RNGetPixel/UIImage+RGBAAtPixel.h"; sourceTree = "<group>"; };
 		5D72D2E81C16249000E22EC1 /* libRNPixelColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPixelColor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		79E0CD43201B644B006C6708 /* UIImage+RGBAAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGBAAtPixel.h"; path = "PNGetPixel/UIImage+RGBAAtPixel.h"; sourceTree = "<group>"; };
-		79E0CD44201B644B006C6708 /* RNGetPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGetPixel.m; path = PNGetPixel/RNGetPixel.m; sourceTree = "<group>"; };
-		79E0CD45201B644B006C6708 /* RNGetPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNGetPixel.h; path = PNGetPixel/RNGetPixel.h; sourceTree = "<group>"; };
-		79E0CD46201B644B006C6708 /* UIImage+RGBAAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGBAAtPixel.m"; path = "PNGetPixel/UIImage+RGBAAtPixel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +45,10 @@
 		5D72D2DF1C16249000E22EC1 = {
 			isa = PBXGroup;
 			children = (
-				79E0CD45201B644B006C6708 /* RNGetPixel.h */,
-				79E0CD44201B644B006C6708 /* RNGetPixel.m */,
-				79E0CD43201B644B006C6708 /* UIImage+RGBAAtPixel.h */,
-				79E0CD46201B644B006C6708 /* UIImage+RGBAAtPixel.m */,
+				2867507822F339AC00D5B059 /* RNGetPixel.h */,
+				2867507A22F339AC00D5B059 /* RNGetPixel.m */,
+				2867507B22F339AC00D5B059 /* UIImage+RGBAAtPixel.h */,
+				2867507922F339AC00D5B059 /* UIImage+RGBAAtPixel.m */,
 				5D72D2E91C16249000E22EC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +100,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5D72D2DF1C16249000E22EC1;
@@ -117,8 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E0CD47201B644B006C6708 /* RNGetPixel.m in Sources */,
-				79E0CD48201B644B006C6708 /* UIImage+RGBAAtPixel.m in Sources */,
+				2867507C22F339AC00D5B059 /* UIImage+RGBAAtPixel.m in Sources */,
+				2867507D22F339AC00D5B059 /* RNGetPixel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +170,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -214,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
